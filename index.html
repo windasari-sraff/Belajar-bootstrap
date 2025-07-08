@@ -39,20 +39,27 @@
 <main class="py-4"></main>
 <div class="container">
   <button type="button" class="btn btn-success" data-target="#myModal" data-toggle="modal">
-    login
+    Forgot password
   </button>
 
-  <div class="modal" tabindex="-1" role="dialog" aria-labelledby="LoginModal" id="myModal">
+  <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="LoginModal" id="myModal">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <div class="modal-title">Modal Title</div>
+          <div class="modal-title">Please enter you email to reset password</div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times</span>
+          </button>
+
         </div>
         <div class="modal-body">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ducimus veritatis architecto officia, fuga reprehenderit quisquam sit impedit quasi doloremque pariatur necessitatibus esse minus illum dolores culpa numquam dolorem delectus?</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia aperiam maiores dolorem qui, dicta hic esse nisi, magnam animi autem ea soluta fugiat! Tenetur repellat dolorum ipsum harum, eum est.</p>
-        </div>
-        
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Reset</button>
+          </div>
+
         </dic>
 
 
